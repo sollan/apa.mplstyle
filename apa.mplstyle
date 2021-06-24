@@ -10,7 +10,7 @@ figure.subplot.hspace: 0.3
 axes.facecolor: 	white   # axes background color
 axes.edgecolor:     black   # axes edge color
 axes.labelcolor:	black
-axes.prop_cycle: cycler('color', ['k', 'k','r', '0.5', '0.5', 'k', 'b', 'r'])+ cycler('linestyle', ['-', '--', '-', '-.','-', ':','--', '-.'])
+axes.prop_cycle: cycler('color', ['k', '0.8', '0.6', '0.4', 'k', '0.8', 'b', 'r']) + cycler('linestyle', ['-', '-', '-', '-.','-', ':','--', '-.']) + cycler('linewidth', [1.2, 1.2, 1, 0.7, 1, 0.7, 1, 0.7])
 		          # color cycle for plot lines as list of string colorspecs:
 		          # single letter, long name, or web-style hex
 		          # As opposed to all other paramters in this file, the color
